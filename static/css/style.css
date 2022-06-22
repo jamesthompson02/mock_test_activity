@@ -1,0 +1,15 @@
+
+#greeting-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#form-result {
+    display: none;
+    
+}

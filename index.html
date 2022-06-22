@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/css/style.css">
+    <script src="./static/js/index.js" defer></script>
+    <title>Greeting Card</title>
+</head>
+<body>
+    <div id="form-submit">
+        <form id="greeting-form">
+            <div class="label-container">
+                <label for="greeting-message">Dear:</label>
+                <input id="greeting-message" type="text" placeholder="Name of Person...">
+            </div>
+            <div class="label-container" >
+                <label for="event-selection">Type of Event:</label>
+                <select id="event-selection">
+                    <option value="Happy Birthday!">
+                        Happy Birthday!
+
+                    </option>
+                    <option value="Happy Anniversary!">
+                        Happy Anniversary!
+
+                    </option>
+                    <option value="Happy Mother's Day!">
+                        Happy Mother's Day!
+
+                    </option>
+                    <option value="Happy Father's Day!">
+                        Happy Father's Day!
+
+                    </option>
+                </select>
+            </div>
+            <div class="label-container">
+                <label for="personal-message">Personal Message:</label>
+                <textarea id="personal-message"></textarea>
+            </div>
+            <div class="label-container">
+                <label for="from-sender">From:</label>
+                <input type="text" id="from-sender" placeholder="Your name...">
+
+            </div>
+            <button type="submit" id="submit-button">Submit</button>
+
+
+        </form>
+    </div>
+    <div id="form-result">
+        <h2 id="card-greeting">Dear Alex</h2>
+        <h2 id="card-event">Happy Birthday</h2>
+        <p id="card-message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, ullam laboriosam doloribus officiis non fugiat doloremque tenetur error ipsum recusandae, at dolorem dicta assumenda illum veniam totam enim corporis labore.</p>
+        <p id="card-ending">Lots of love,</p>
+        <p id="card-sender">Billy</p>
+
+    </div>
+    
+</body>
+</html>
